@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir o site em multiplos dispositivos ou diminuir o tamando do seu navegador</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="">
+    </picture>
+    
+    <h1>reproduzindo audio</h1>
+    <p>Vamos implementar audios usando HTML5</p>
+    <audio src="midia/sequestro.mp3" controls autoplay></audio>
+    <p>outra forma</p>
+    <audio preload="metadata" controls>
+        <source src="midia/sequestro.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso seu navegador não tenha suporte baixe o audio mp3 aqui <a href="midia/sequestro.mp3" download="midia/sequestro.mp3" type="application/mp4">download</a></p>
+</body>
+</html>
