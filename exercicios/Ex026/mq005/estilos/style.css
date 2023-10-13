@@ -20,7 +20,7 @@ header > h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -41,6 +41,20 @@ menu > ul > li > a:hover{
     background-color: gray;
 }
 
+#burguer{
+    background-color: rgb(68, 67, 67);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+
 main{
     width: 90vw;
     background-color: white;
@@ -49,6 +63,7 @@ main{
     padding: 10px;
     border-radius: 10px;
 }
+
 
 article > h2{
     padding-bottom: 20px;
