@@ -1,0 +1,42 @@
+@charset "UFT-8";
+
+#a{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: 5px solid black;
+    height: 300px;
+    align-content: center;
+    gap: 30px;
+    width: 400px;
+    flex-shrink: 1;
+}
+
+#a > div{
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    padding: 16px;
+    height: 20px;
+}
+
+.ver{
+    background-color: red;
+    flex-grow: 0;
+}
+
+.azul{
+    background-color: blue;
+}
+
+div#aa{
+    order: 0;
+}
+
+#b{
+    order: 0;
+}
+
+#c{
+    order: 0;
+}
